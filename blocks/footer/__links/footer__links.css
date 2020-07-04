@@ -1,0 +1,30 @@
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding-left: 48px;
+
+}
+
+@media (min-width: 321px) and (max-width: 769px) {
+  .footer__links {
+      padding-left: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__links {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-left: 0;
+  }
+}

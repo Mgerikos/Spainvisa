@@ -1,0 +1,44 @@
+.header__lang-link {
+  font-family: 'Inter', ‘Arial’, sans-serif;
+  color: black;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.15;
+  -webkit-transition: 0.3s opacity;
+  -o-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+  text-decoration: none;
+}
+
+
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  color: greenyellow;
+}
+
+
+@media screen and (max-width: 768px){
+  .header__lang-link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .header__lang-link {
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+
+
+
+@media screen and (max-width: 320px){
+  .header__lang-link {
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+
+
+

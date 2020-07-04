@@ -1,0 +1,32 @@
+.header__kons-block {
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+--envybox-btn-background-color: rgba(255,0,0,0.8);
+text-align: center;
+width: 200px;
+margin: 0px 0 0px 0px;
+
+vertical-align: top;
+border: 2pxb red solid;
+padding: 10px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .header__kons-block  {
+
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header__kons-block  {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .header__kons-block {
+    width: 80px;
+
+  }
+}

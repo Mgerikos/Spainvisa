@@ -1,0 +1,86 @@
+.cover__logo {
+  background-image: url(../../../sprint-3-images/newlogospainisk.png);
+  width: 180px;
+  height: 180px;
+  top: 40px;
+  left: 500px;
+  position: absolute;
+  z-index: 2;
+
+}
+
+
+
+@media screen and (max-width: 1024px){
+  .cover__logo{
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 20px;
+  left: 430px;
+  }
+}
+
+@media screen and (max-width: 846px){
+  .cover__logo{
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -20px;
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .cover__logo{
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 481px){
+  .cover__logo{
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -30px;
+    left: 250px;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .cover__logo{
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -30px;
+    left: 220px;
+  }
+}
+
+
+
+@media screen and (max-width: 394px){
+  .cover__logo{
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -70px;
+    left: 75px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .cover__logo{
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -70px;
+    left: 100px;
+  }
+}
+
+
